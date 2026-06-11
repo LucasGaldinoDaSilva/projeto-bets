@@ -1,6 +1,8 @@
 import os
 import json
 import requests
+
+from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
 
@@ -8,15 +10,24 @@ load_dotenv()
 
 API_KEY = os.getenv("ODDS_API_KEY")
 
-URL = (
+sport = [
+    "soccer_brazil_campeonato",
+    "soccer_conmebol_copa_libertadores",
+    "soccer_conmebol_copa_sudamericana",
+    "soccer_fifa_world_cup"
+
+]
+
+
+
+def coletar_odds(sport_key):
+    URL = (
     f"https://api.the-odds-api.com/v4/sports/"
-    f"soccer_brazil_campeonato/odds/"
+    f"{sport_key}/odds/"
     f"?apiKey={API_KEY}"
     f"&regions=eu"
     f"&markets=h2h"
 )
-
-def coletar_odds():
     response = requests.get(URL)
 
     if response.status_code != 200:
@@ -26,22 +37,25 @@ def coletar_odds():
     
     dados = response.json()
 
-    data_coleta = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    pasta = Path(f"data/bronze/{sport_key}")
+    pasta.mkdir(parents=True, exist_ok=True)
 
-    caminho_arquivo = (
-        f"data/bronze/odds_{data_coleta}.json"
+    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
 
-    )
+    arquivo = pasta / f"odds_{timestamp}.json"
 
-    with open(caminho_arquivo, "w", encoding="utf-8") as arquivo:
+    
+
+    with open(arquivo, "w", encoding="utf-8") as arquivo:
         json.dump(
             dados,
             arquivo,
             ensure_ascii=False,
             indent=4
         )
-    print(f"Arquvos salvo em: {caminho_arquivo}")
-    print(f"Quantidade de jogos: {len(dados)}")
+    print(f"{sport_key}: {len(dados)} jogos salvos")
 
 if __name__ == "__main__":
-    coletar_odds()
+    for sport_key in sport:
+        coletar_odds(sport_key)
+
