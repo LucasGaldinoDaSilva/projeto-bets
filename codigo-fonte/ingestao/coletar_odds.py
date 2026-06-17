@@ -11,9 +11,9 @@ load_dotenv()
 API_KEY = os.getenv("ODDS_API_KEY")
 
 sport = [
-    "soccer_brazil_campeonato",
-    "soccer_conmebol_copa_libertadores",
-    "soccer_conmebol_copa_sudamericana",
+   # "soccer_brazil_campeonato",
+  #  "soccer_conmebol_copa_libertadores",
+   # "soccer_conmebol_copa_sudamericana",
     "soccer_fifa_world_cup"
 
 ]
