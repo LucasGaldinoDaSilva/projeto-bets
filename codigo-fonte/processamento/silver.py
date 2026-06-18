@@ -2,16 +2,22 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import explode, col
 import pandas as pd
+import glob
 
+arquivos = glob.glob("data/bronze/soccer_fifa_world_cup/*.json")
+
+ultimo_arquivo = max(arquivos)
+print(ultimo_arquivo)
 
 spark = SparkSession.builder\
     .appName("Silver")\
     .getOrCreate()
-   
+    
+
 df = (
     spark.read
     .option("multiline", "true")
-    .json("data/bronze/soccer_fifa_world_cup/odds_20260616214645.json")
+    .json(ultimo_arquivo)
 )
 
 df_bookmakers = df.withColumn(
@@ -47,6 +53,6 @@ silver_df = df_outcomes.select(
 )
 
 silver_df.write \
-    .mode("append")\
+    .mode("overwrite")\
     .partitionBy("sport_key")\
     .parquet("data/silver/soccer_fifa_world_cup")
