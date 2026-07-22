@@ -1,0 +1,47 @@
+# Variáveis de ambiente e segredos
+.env
+airflow/.env
+*.env
+
+# Ambientes virtuais
+.venv/
+.venv*/
+venv/
+.bets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+airflow/standalone_admin_password.txt
+
+# Dados gerados pelo pipeline
+data/bronze/
+data/silver/
+data/gold/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+.part-*
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp

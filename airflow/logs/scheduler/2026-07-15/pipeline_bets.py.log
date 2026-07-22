@@ -1,0 +1,807 @@
+[2026-07-15T00:25:04.585+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:25:04.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:25:05.467+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:25:05.398+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:25:05.924+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:25:05.767+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:25:05.938+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:25:08.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 4.546 seconds
+[2026-07-15T00:25:41.013+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:25:41.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:25:41.114+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:25:41.104+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:25:41.407+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:25:41.192+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:25:41.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:25:47.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 7.619 seconds
+[2026-07-15T00:30:14.161+0000] {processor.py:161} INFO - Started process (PID=166) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:30:14.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:30:14.217+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:30:14.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:30:14.280+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:30:14.260+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:30:14.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:30:14.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.464 seconds
+[2026-07-15T00:30:47.827+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:30:48.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:30:49.863+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:30:49.798+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:30:50.156+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:30:50.133+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:30:50.163+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:30:51.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 4.641 seconds
+[2026-07-15T00:31:23.445+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:31:23.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:31:23.655+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:31:23.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:31:23.906+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:31:23.873+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:31:23.917+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:31:25.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.402 seconds
+[2026-07-15T00:31:57.233+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:31:57.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:31:57.391+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:31:57.371+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:31:57.498+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:31:57.474+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:31:57.507+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:31:58.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.638 seconds
+[2026-07-15T00:32:30.191+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:32:30.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:32:31.036+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:32:30.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:32:31.265+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:32:31.223+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:32:31.284+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:32:33.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 3.459 seconds
+[2026-07-15T00:33:04.877+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:33:04.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:33:05.040+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:33:05.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:33:05.172+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:33:05.136+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:33:05.180+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:33:06.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.700 seconds
+[2026-07-15T00:33:39.777+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:33:41.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:33:42.816+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:33:42.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:33:43.399+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:33:43.237+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:33:43.443+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:33:48.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 10.283 seconds
+[2026-07-15T00:34:20.354+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:34:20.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:34:20.617+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:34:20.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:34:20.924+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:34:20.846+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:34:20.943+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:34:22.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.858 seconds
+[2026-07-15T00:34:53.737+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:34:53.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:34:53.838+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:34:53.821+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:34:53.945+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:34:53.926+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:34:53.949+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:34:54.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.857 seconds
+[2026-07-15T00:35:25.458+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:35:25.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:35:25.622+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:35:25.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:35:25.707+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:35:25.683+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:35:25.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:35:26.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.281 seconds
+[2026-07-15T00:35:57.431+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:35:57.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:35:57.758+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:35:57.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:35:57.934+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:35:57.900+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:35:57.949+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:35:59.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.785 seconds
+[2026-07-15T00:36:31.634+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:36:31.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:36:31.820+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:36:31.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:36:32.009+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:36:31.965+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:36:32.018+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:36:33.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.185 seconds
+[2026-07-15T00:37:10.347+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:37:10.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:37:11.123+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:37:10.929+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:37:11.636+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:37:11.610+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:37:11.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:37:14.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 6.939 seconds
+[2026-07-15T00:37:50.818+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:37:50.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:37:50.950+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:37:50.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:37:51.088+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:37:51.055+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:37:51.096+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:37:52.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.744 seconds
+[2026-07-15T00:38:24.085+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:38:24.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:38:24.187+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:38:24.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:38:24.304+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:38:24.268+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:38:24.310+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:38:25.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.390 seconds
+[2026-07-15T00:38:58.151+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:38:58.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:38:58.437+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:38:58.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:38:58.682+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:38:58.614+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:38:58.687+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:39:02.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 4.782 seconds
+[2026-07-15T00:39:33.327+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:39:33.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:39:33.396+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:39:33.387+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:39:33.455+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:39:33.438+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:39:33.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:39:34.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.003 seconds
+[2026-07-15T00:40:04.658+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:40:04.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:40:04.730+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:40:04.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:40:04.764+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:40:04.757+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:40:04.766+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:40:04.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.357 seconds
+[2026-07-15T00:40:35.932+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:40:35.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:40:36.041+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:40:36.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:40:36.196+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:40:36.156+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:40:36.204+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:40:37.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.398 seconds
+[2026-07-15T00:41:10.350+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:41:10.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:41:12.062+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:41:12.018+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:41:12.184+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:41:12.161+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:41:12.189+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:41:12.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 3.152 seconds
+[2026-07-15T00:41:46.023+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:41:46.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:41:47.604+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:41:47.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:41:48.851+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:41:48.579+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:41:48.896+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:41:52.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 7.212 seconds
+[2026-07-15T00:42:24.695+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:42:24.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:42:24.796+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:42:24.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:42:24.872+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:42:24.852+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:42:24.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:42:25.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.931 seconds
+[2026-07-15T00:42:58.120+0000] {processor.py:161} INFO - Started process (PID=390) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:42:58.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:42:58.304+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:42:58.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:42:58.498+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:42:58.454+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:42:58.510+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:42:59.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.215 seconds
+[2026-07-15T00:43:37.986+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:43:38.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:43:38.590+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:43:38.511+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:43:39.772+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:43:39.411+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/pipeline_bets.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/pipeline_bets.py", line 2
+    from 
+         ^
+SyntaxError: invalid syntax
+[2026-07-15T00:43:39.857+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:43:48.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 11.563 seconds
+[2026-07-15T00:45:53.917+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:45:54.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:45:54.087+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:45:54.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:45:55.815+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:46:33.331+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:46:33.119+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T00:46:35.605+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:46:35.601+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T00:54:01.563+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:54:01.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:54:01.725+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:54:01.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:54:02.233+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:54:05.078+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:54:05.040+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T00:54:05.999+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:54:05.995+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T00:54:07.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 6.084 seconds
+[2026-07-15T00:54:42.028+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:54:42.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T00:54:42.192+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:54:42.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:54:43.163+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:54:45.790+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:54:45.786+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T00:54:46.385+0000] {logging_mixin.py:188} INFO - [2026-07-15T00:54:46.373+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T00:54:47.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 5.785 seconds
+[2026-07-15T00:58:07.485+0000] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T00:58:07.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T01:03:02.599+0000] {processor.py:161} INFO - Started process (PID=448) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:03:02.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T01:03:02.717+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:03:02.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:03:37.238+0000] {processor.py:161} INFO - Started process (PID=451) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:03:37.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T01:03:37.449+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:03:37.411+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:03:39.254+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:04:12.231+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:04:11.101+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T01:05:04.315+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:05:04.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T01:05:04.388+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:05:04.371+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:05:04.880+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:05:19.236+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:05:19.235+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T01:05:19.299+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:05:19.299+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T01:05:19.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 15.378 seconds
+[2026-07-15T01:05:53.662+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:05:54.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T01:05:54.184+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:05:54.100+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:06:10.261+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:06:16.514+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:06:16.473+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T01:06:18.074+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:06:18.071+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T01:16:36.385+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:16:36.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T01:16:38.069+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:16:37.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:16:56.893+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:16:56.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T01:16:56.994+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:16:56.977+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:16:57.738+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T01:17:00.763+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:17:00.762+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T01:17:00.940+0000] {logging_mixin.py:188} INFO - [2026-07-15T01:17:00.939+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T01:17:01.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 4.413 seconds
+[2026-07-15T23:09:06.106+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:09:06.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:09:06.147+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:09:06.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:09:06.359+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:09:06.503+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:09:06.502+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:09:06.614+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:09:06.613+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:09:06.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.627 seconds
+[2026-07-15T23:09:37.512+0000] {processor.py:161} INFO - Started process (PID=165) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:09:37.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:09:37.612+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:09:37.600+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:09:38.108+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:09:40.479+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:09:40.478+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:09:40.580+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:09:40.579+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:09:40.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 3.369 seconds
+[2026-07-15T23:10:12.322+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:10:12.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:10:12.456+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:10:12.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:10:12.901+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:10:13.809+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:10:13.803+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:10:14.142+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:10:14.141+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:10:14.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.192 seconds
+[2026-07-15T23:10:45.322+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:10:45.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:10:45.438+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:10:45.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:10:45.948+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:10:47.177+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:10:47.176+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:10:47.701+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:10:47.700+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:10:47.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.690 seconds
+[2026-07-15T23:11:20.113+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:11:20.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:11:20.179+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:11:20.167+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:11:21.106+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:11:22.334+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:11:22.325+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:11:22.920+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:11:22.918+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:11:23.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 3.180 seconds
+[2026-07-15T23:11:54.457+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:11:54.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:11:54.621+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:11:54.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:11:57.526+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:12:01.982+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:12:01.981+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:12:03.499+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:12:03.498+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:12:03.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 9.588 seconds
+[2026-07-15T23:12:35.700+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:12:35.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:12:35.848+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:12:35.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:12:36.265+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:12:39.203+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:12:39.196+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:12:39.770+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:12:39.769+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:12:39.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 4.509 seconds
+[2026-07-15T23:13:11.546+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:13:11.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:13:11.742+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:13:11.710+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:13:12.384+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:13:13.473+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:13:13.472+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:13:13.962+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:13:13.962+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:13:14.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.819 seconds
+[2026-07-15T23:13:44.542+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:13:44.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:13:44.602+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:13:44.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:13:44.846+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:13:45.327+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:13:45.326+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:13:45.657+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:13:45.656+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:13:45.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.507 seconds
+[2026-07-15T23:14:17.744+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:14:17.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:14:17.966+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:14:17.960+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:14:18.283+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:14:19.372+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:14:19.370+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:14:19.630+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:14:19.629+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:14:19.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 3.013 seconds
+[2026-07-15T23:14:50.171+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:14:50.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:14:50.209+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:14:50.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:14:50.373+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:14:50.553+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:14:50.552+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:14:50.621+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:14:50.621+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:14:50.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.575 seconds
+[2026-07-15T23:15:21.274+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:15:21.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:15:21.326+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:15:21.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:15:21.459+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:15:21.740+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:15:21.739+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:15:21.826+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:15:21.826+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:15:21.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.727 seconds
+[2026-07-15T23:15:52.885+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:15:52.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:15:53.065+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:15:53.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:15:53.473+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:15:54.143+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:15:54.142+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:15:54.444+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:15:54.443+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:15:54.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.014 seconds
+[2026-07-15T23:16:24.911+0000] {processor.py:161} INFO - Started process (PID=232) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:16:24.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:16:24.927+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:16:24.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:16:24.976+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:16:25.126+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:16:25.125+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:16:25.267+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:16:25.265+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:16:25.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.514 seconds
+[2026-07-15T23:16:55.925+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:16:55.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:16:55.984+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:16:55.977+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:16:56.269+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:16:56.698+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:16:56.697+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:16:56.889+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:16:56.888+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:16:56.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.177 seconds
+[2026-07-15T23:17:27.269+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:17:27.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:17:27.293+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:17:27.291+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:17:27.366+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:17:27.481+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:17:27.481+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:17:27.534+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:17:27.533+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:17:27.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.350 seconds
+[2026-07-15T23:18:01.474+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:18:01.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:18:01.504+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:18:01.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:18:01.624+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:18:01.793+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:18:01.792+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:18:01.868+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:18:01.868+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:18:01.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.515 seconds
+[2026-07-15T23:18:32.085+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:18:32.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:18:32.088+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:18:32.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:18:32.111+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:18:32.203+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:18:32.203+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:18:32.265+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:18:32.264+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:18:32.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.249 seconds
+[2026-07-15T23:19:02.515+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:19:02.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:19:02.518+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:19:02.518+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:19:02.563+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:19:02.626+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:19:02.625+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:19:02.698+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:19:02.697+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:19:02.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.240 seconds
+[2026-07-15T23:19:32.947+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:19:32.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:19:32.952+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:19:32.952+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:19:32.979+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:19:33.350+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:19:33.350+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:19:33.581+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:19:33.579+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:19:33.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.755 seconds
+[2026-07-15T23:20:04.119+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:20:04.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:20:04.128+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:20:04.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:20:04.175+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:20:04.286+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:20:04.286+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:20:04.314+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:20:04.314+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:20:04.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.235 seconds
+[2026-07-15T23:20:35.369+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:20:35.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:20:35.499+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:20:35.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:20:36.073+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:20:37.221+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:20:37.219+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:20:37.397+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:20:37.396+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:20:37.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.402 seconds
+[2026-07-15T23:21:08.350+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:21:08.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:21:08.442+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:21:08.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:21:09.037+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:21:09.938+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:21:09.937+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:21:10.098+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:21:10.098+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:21:10.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.975 seconds
+[2026-07-15T23:21:40.670+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:21:40.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:21:40.724+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:21:40.706+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:21:40.861+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:21:41.093+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:21:41.093+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:21:41.267+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:21:41.265+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:21:41.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.981 seconds
+[2026-07-15T23:22:11.883+0000] {processor.py:161} INFO - Started process (PID=292) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:22:11.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:22:11.925+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:22:11.916+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:22:12.071+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:22:12.611+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:22:12.610+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:22:12.791+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:22:12.790+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:22:12.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.086 seconds
+[2026-07-15T23:22:43.402+0000] {processor.py:161} INFO - Started process (PID=297) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:22:43.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:22:43.427+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:22:43.423+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:22:43.582+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:22:44.100+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:22:44.099+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:22:44.259+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:22:44.258+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:22:44.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.067 seconds
+[2026-07-15T23:23:14.625+0000] {processor.py:161} INFO - Started process (PID=302) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:23:14.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:23:14.643+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:23:14.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:23:14.707+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:23:15.122+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:23:15.122+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:23:15.337+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:23:15.336+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:23:15.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.860 seconds
+[2026-07-15T23:23:45.794+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:23:45.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:23:45.876+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:23:45.848+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:23:46.272+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:23:46.784+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:23:46.783+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:23:47.012+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:23:47.011+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:23:47.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.347 seconds
+[2026-07-15T23:24:17.346+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:24:17.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:24:17.357+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:24:17.355+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:24:17.399+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:24:17.537+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:24:17.536+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:24:17.582+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:24:17.582+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:24:17.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.297 seconds
+[2026-07-15T23:24:47.813+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:24:47.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:24:47.819+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:24:47.817+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:24:47.832+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:24:47.888+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:24:47.888+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:24:47.929+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:24:47.929+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:24:47.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.145 seconds
+[2026-07-15T23:25:18.057+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:25:18.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:25:18.064+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:25:18.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:25:18.088+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:25:18.159+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:25:18.159+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:25:18.197+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:25:18.197+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:25:18.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.190 seconds
+[2026-07-15T23:25:48.483+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:25:48.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:25:48.503+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:25:48.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:25:48.575+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:25:48.705+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:25:48.705+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:25:48.761+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:25:48.761+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:25:48.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.360 seconds
+[2026-07-15T23:26:18.956+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:26:18.957+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:26:18.960+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:26:18.960+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:26:18.976+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:26:19.014+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:26:19.014+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:26:19.043+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:26:19.043+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:26:19.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.116 seconds
+[2026-07-15T23:26:49.124+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:26:49.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:26:49.129+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:26:49.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:26:49.143+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:26:49.185+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:26:49.185+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:26:49.216+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:26:49.216+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:26:49.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.129 seconds
+[2026-07-15T23:27:19.729+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:27:19.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:27:19.801+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:27:19.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:27:20.026+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:27:20.469+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:27:20.469+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:27:20.553+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:27:20.553+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:27:20.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.980 seconds
+[2026-07-15T23:27:50.834+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:27:50.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:27:50.843+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:27:50.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:27:50.861+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:27:50.900+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:27:50.900+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:27:50.926+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:27:50.925+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:27:50.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.120 seconds
+[2026-07-15T23:28:21.144+0000] {processor.py:161} INFO - Started process (PID=352) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:28:21.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:28:21.160+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:28:21.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:28:21.242+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:28:21.634+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:28:21.621+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:28:21.756+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:28:21.755+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:28:21.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.701 seconds
+[2026-07-15T23:28:52.208+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:28:52.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:28:52.222+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:28:52.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:28:52.344+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:28:53.333+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:28:53.325+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:28:53.509+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:28:53.499+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:28:53.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.458 seconds
+[2026-07-15T23:29:37.743+0000] {processor.py:161} INFO - Started process (PID=362) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:29:38.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:29:40.489+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:29:40.330+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:29:43.995+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:31:52.796+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:31:58.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:32:07.831+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:32:03.940+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:34:23.979+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:34:27.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:34:42.460+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:34:36.259+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:35:47.640+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:35:41.042+0000] {timeout.py:68} ERROR - Process timed out, PID: 368
+[2026-07-15T23:36:34.817+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:36:34.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:36:34.826+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:36:34.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:36:34.990+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:36:36.109+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:36:36.109+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:36:36.191+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:36:36.191+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:36:36.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.503 seconds
+[2026-07-15T23:37:07.126+0000] {processor.py:161} INFO - Started process (PID=378) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:37:07.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:37:07.207+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:37:07.186+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:37:08.254+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:37:13.195+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:37:13.193+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:37:14.250+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:37:14.250+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:37:14.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 7.760 seconds
+[2026-07-15T23:37:45.671+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:37:45.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:37:45.688+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:37:45.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:37:45.856+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:37:46.276+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:37:46.274+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:37:46.355+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:37:46.355+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:37:46.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.804 seconds
+[2026-07-15T23:39:38.678+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:39:49.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:40:07.656+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:39:58.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:40:54.316+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:40:57.404+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:40:57.378+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:40:59.214+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:40:59.210+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:40:59.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 99.588 seconds
+[2026-07-15T23:41:06.372+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:41:06.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-15T23:41:06.383+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:41:06.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:41:06.464+0000] {processor.py:840} INFO - DAG(s) 'pipeline_bets' retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-15T23:41:06.837+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:41:06.837+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-07-15T23:41:06.971+0000] {logging_mixin.py:188} INFO - [2026-07-15T23:41:06.970+0000] {dag.py:3947} INFO - Setting next_dagrun for pipeline_bets to 2026-07-15 00:00:00+00:00, run_after=2026-07-16 00:00:00+00:00
+[2026-07-15T23:41:07.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.651 seconds

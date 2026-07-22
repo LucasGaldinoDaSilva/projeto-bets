@@ -1,0 +1,471 @@
+[2026-07-09T01:54:21.826+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:54:21.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T01:54:21.947+0000] {logging_mixin.py:188} INFO - [2026-07-09T01:54:21.913+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:54:22.106+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:54:22.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.117 seconds
+[2026-07-09T01:54:53.527+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:54:53.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T01:54:53.568+0000] {logging_mixin.py:188} INFO - [2026-07-09T01:54:53.562+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:54:53.615+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:54:54.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.873 seconds
+[2026-07-09T01:55:45.510+0000] {processor.py:161} INFO - Started process (PID=169) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:55:46.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T01:55:49.033+0000] {logging_mixin.py:188} INFO - [2026-07-09T01:55:48.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:55:55.392+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:58:47.413+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:58:47.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T01:58:47.610+0000] {logging_mixin.py:188} INFO - [2026-07-09T01:58:47.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:58:47.857+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T01:58:49.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.654 seconds
+[2026-07-09T22:44:17.698+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:44:17.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:44:17.778+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:44:17.744+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:44:17.821+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:44:18.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.633 seconds
+[2026-07-09T22:44:48.866+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:44:48.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:44:48.915+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:44:48.911+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:44:48.953+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:44:49.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.428 seconds
+[2026-07-09T22:45:19.460+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:45:19.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:45:19.469+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:45:19.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:45:19.478+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:45:19.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.219 seconds
+[2026-07-09T22:45:50.197+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:45:50.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:45:50.230+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:45:50.226+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:45:50.255+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:45:50.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.841 seconds
+[2026-07-09T22:46:21.318+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:46:21.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:46:21.329+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:46:21.328+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:46:21.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:46:21.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.369 seconds
+[2026-07-09T22:46:51.928+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:46:51.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:46:51.938+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:46:51.937+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:46:51.943+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:46:52.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.370 seconds
+[2026-07-09T22:47:22.654+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:47:22.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:47:22.662+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:47:22.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:47:22.669+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:47:22.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.243 seconds
+[2026-07-09T22:48:15.547+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:48:19.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:48:19.817+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:48:19.469+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:48:24.145+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:50:48.149+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:50:49.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:50:49.936+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:50:49.844+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:50:51.097+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:50:53.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 8.406 seconds
+[2026-07-09T22:51:23.986+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:51:23.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:51:23.993+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:51:23.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:51:24.002+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:51:24.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.239 seconds
+[2026-07-09T22:52:07.268+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:52:07.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:52:12.337+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:52:08.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:52:16.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:52:31.985+0000] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 843, in process_file
+    DagFileProcessor.update_import_errors(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 615, in update_import_errors
+    session.execute(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/future/engine.py", line 412, in connect
+    return super(Engine, self).connect()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2026-07-09T22:54:17.629+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:54:23.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:54:34.098+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:54:31.057+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:54:51.207+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:57:27.525+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:57:27.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:57:29.972+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:57:29.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:58:00.731+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:58:00.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T22:58:00.767+0000] {logging_mixin.py:188} INFO - [2026-07-09T22:58:00.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:58:00.808+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T22:58:01.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.523 seconds
+[2026-07-09T23:03:05.974+0000] {processor.py:161} INFO - Started process (PID=162) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:03:05.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:03:05.989+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:03:05.987+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:03:06.004+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:03:06.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.166 seconds
+[2026-07-09T23:03:36.767+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:03:36.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:03:36.827+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:03:36.816+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:03:36.885+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:03:37.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.464 seconds
+[2026-07-09T23:04:07.352+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:04:07.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:04:07.368+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:04:07.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:04:07.378+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:04:07.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.097 seconds
+[2026-07-09T23:04:37.585+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:04:37.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:04:37.589+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:04:37.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:04:37.598+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:04:37.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.090 seconds
+[2026-07-09T23:05:07.877+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:05:07.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:05:07.880+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:05:07.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:05:07.883+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:05:07.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.119 seconds
+[2026-07-09T23:05:39.703+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:05:39.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:05:39.888+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:05:39.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:05:40.335+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:05:41.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.475 seconds
+[2026-07-09T23:06:13.748+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:06:13.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:06:13.926+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:06:13.903+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:06:14.072+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:06:16.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 3.112 seconds
+[2026-07-09T23:06:54.916+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:06:55.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:06:57.170+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:06:56.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:06:59.188+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:07:00.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 9.204 seconds
+[2026-07-09T23:07:33.500+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:07:33.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:07:33.750+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:07:33.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:07:33.849+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:07:34.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.481 seconds
+[2026-07-09T23:08:08.331+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:08:08.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:08:08.578+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:08:08.545+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:08:08.787+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:08:12.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 5.058 seconds
+[2026-07-09T23:15:08.799+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:15:25.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:15:58.587+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:15:46.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:16:44.521+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:17:39.608+0000] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 843, in process_file
+    DagFileProcessor.update_import_errors(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 615, in update_import_errors
+    session.execute(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/future/engine.py", line 412, in connect
+    return super(Engine, self).connect()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 145, in _do_get
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2026-07-09T23:21:17.974+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:21:17.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:21:18.155+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:21:18.111+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:21:18.304+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:21:19.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.719 seconds
+[2026-07-09T23:21:52.255+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:21:52.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:21:52.514+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:21:52.468+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:21:53.041+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:21:53.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.057 seconds
+[2026-07-09T23:22:25.702+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:22:25.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:22:25.836+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:22:25.825+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:22:25.912+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:22:27.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.772 seconds
+[2026-07-09T23:24:39.213+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:24:39.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:24:39.472+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:24:39.382+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:24:40.844+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:24:43.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 8.029 seconds
+[2026-07-09T23:25:16.037+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:25:16.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:25:16.426+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:25:16.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:25:16.665+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:25:18.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 2.583 seconds
+[2026-07-09T23:27:57.266+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:27:57.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:27:57.408+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:27:57.394+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:27:57.527+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:27:58.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 1.488 seconds
+[2026-07-09T23:28:28.743+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:28:28.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:28:28.783+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:28:28.781+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:28:28.809+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:28:28.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.291 seconds
+[2026-07-09T23:28:59.155+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:28:59.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:28:59.172+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:28:59.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:28:59.180+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:28:59.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.108 seconds
+[2026-07-09T23:29:29.334+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:29:29.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_bets.py for tasks to queue
+[2026-07-09T23:29:29.341+0000] {logging_mixin.py:188} INFO - [2026-07-09T23:29:29.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:29:29.344+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pipeline_bets.py
+[2026-07-09T23:29:29.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_bets.py took 0.059 seconds

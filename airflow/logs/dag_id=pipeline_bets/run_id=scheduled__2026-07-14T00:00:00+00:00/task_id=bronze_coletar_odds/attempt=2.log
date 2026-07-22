@@ -1,0 +1,37 @@
+[2026-07-15T00:17:09.972+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-07-15T00:17:10.600+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_bets.bronze_coletar_odds scheduled__2026-07-14T00:00:00+00:00 [queued]>
+[2026-07-15T00:17:10.630+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_bets.bronze_coletar_odds scheduled__2026-07-14T00:00:00+00:00 [queued]>
+[2026-07-15T00:17:10.632+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2026-07-15T00:17:10.702+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): bronze_coletar_odds> on 2026-07-14 00:00:00+00:00
+[2026-07-15T00:17:10.761+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'pipeline_bets', 'bronze_coletar_odds', 'scheduled__2026-07-14T00:00:00+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_bet.py', '--cfg-path', '/tmp/tmppddg9m5u']
+[2026-07-15T00:17:10.780+0000] {standard_task_runner.py:91} INFO - Job 46: Subtask bronze_coletar_odds
+[2026-07-15T00:17:10.780+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=212) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-07-15T00:17:10.782+0000] {standard_task_runner.py:64} INFO - Started process 213 to run task
+[2026-07-15T00:17:11.106+0000] {task_command.py:426} INFO - Running <TaskInstance: pipeline_bets.bronze_coletar_odds scheduled__2026-07-14T00:00:00+00:00 [running]> on host 7067fe9c320a
+[2026-07-15T00:17:11.738+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='lucas' AIRFLOW_CTX_DAG_ID='pipeline_bets' AIRFLOW_CTX_TASK_ID='bronze_coletar_odds' AIRFLOW_CTX_EXECUTION_DATE='2026-07-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-07-14T00:00:00+00:00'
+[2026-07-15T00:17:11.745+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-07-15T00:17:11.937+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-07-15T00:17:11.962+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/*** && python ../codigo-fonte/ingestao/coletar_odds.py']
+[2026-07-15T00:17:12.020+0000] {subprocess.py:86} INFO - Output:
+[2026-07-15T00:17:12.461+0000] {subprocess.py:93} INFO - python: can't open file '/opt/***/../codigo-fonte/ingestao/coletar_odds.py': [Errno 2] No such file or directory
+[2026-07-15T00:17:12.469+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2026-07-15T00:17:12.473+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-07-15T00:17:12.495+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2026-07-15T00:17:12.521+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=pipeline_bets, task_id=bronze_coletar_odds, run_id=scheduled__2026-07-14T00:00:00+00:00, execution_date=20260714T000000, start_date=20260715T001710, end_date=20260715T001712
+[2026-07-15T00:17:12.547+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 46 for task bronze_coletar_odds (Bash command failed. The command returned a non-zero exit code 2.; 213)
+[2026-07-15T00:17:12.583+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-07-15T00:17:12.624+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-07-15T00:17:12.629+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

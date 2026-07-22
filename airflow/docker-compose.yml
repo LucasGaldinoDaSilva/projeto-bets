@@ -1,16 +1,23 @@
 version: '3.8'
 
 x-airflow-common: &airflow-common
-  image: apache/airflow:2.9.3
+  build:
+    context: .
+    dockerfile: Dockerfile
+  image: projeto-bets-airflow:2.9.3
+
   environment: &airflow-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     AIRFLOW__CORE__LOAD_EXAMPLES: "false"
     AIRFLOW__LOGGING__BASE_LOG_FOLDER: /opt/airflow/logs
+    ODDS_API_KEY: ${ODDS_API_KEY}
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
+    - ../codigo-fonte:/opt/airflow/codigo-fonte
+    - ../data:/opt/airflow/data
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     - postgres
