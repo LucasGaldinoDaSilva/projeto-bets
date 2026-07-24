@@ -18,7 +18,7 @@ with DAG(
     description="Pipeline Bronze, Silver e Gold do projeto de odds",
     default_args=default_args,
     start_date=datetime(2026, 7, 1),
-    schedule_interval="@daily",
+    schedule_interval="0 * * * *",
     catchup=False,
     tags=["bets", "odds", "engenharia-dados"],
 ) as dag:
@@ -38,4 +38,8 @@ with DAG(
         bash_command="cd /opt/airflow && python codigo-fonte/processamento/gold.py",
     )
 
+    
+
+
     bronze >> silver >> gold
+    

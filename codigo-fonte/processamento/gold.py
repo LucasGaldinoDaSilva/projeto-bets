@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, max as spark_max
+from pyspark.sql.functions import col
 
 
 CAMINHO_CONTAINER = Path("/opt/airflow/data")
@@ -14,13 +14,13 @@ DATA_DIR = (
 )
 
 SILVER_DIR = DATA_DIR / "silver"
-GOLD_DIR = DATA_DIR / "gold" / "melhores_odds"
+GOLD_HISTORICO_DIR = DATA_DIR / "gold" / "historico_odds"
 
 
 spark = (
     SparkSession.builder
     .master("local[*]")
-    .appName("ProcessamentoGoldOdds")
+    .appName("GoldHistoricoOdds")
     .getOrCreate()
 )
 
@@ -36,38 +36,78 @@ print(f"Lendo dados Silver de: {SILVER_DIR}")
 
 df_silver = spark.read.parquet(str(SILVER_DIR))
 
-gold_best_odds = (
+colunas_obrigatorias = {
+    "sport_key",
+    "game_id",
+    "commence_time",
+    "coleta_em",
+    "home_team",
+    "away_team",
+    "bookmaker_key",
+    "bookmaker_name",
+    "market_key",
+    "outcome",
+    "odd",
+}
+
+colunas_ausentes = colunas_obrigatorias - set(df_silver.columns)
+
+if colunas_ausentes:
+    spark.stop()
+    raise ValueError(
+        "Colunas ausentes na Silver: "
+        + ", ".join(sorted(colunas_ausentes))
+    )
+
+gold_historico = (
     df_silver
     .filter(col("odd").isNotNull())
-    .groupBy(
+    .filter(col("coleta_em").isNotNull())
+    .select(
         "sport_key",
         "game_id",
         "commence_time",
+        "coleta_em",
         "home_team",
         "away_team",
+        "bookmaker_key",
+        "bookmaker_name",
         "market_key",
         "outcome",
+        "odd",
     )
-    .agg(
-        spark_max("odd").alias("best_odd")
+    .dropDuplicates(
+        [
+            "sport_key",
+            "game_id",
+            "bookmaker_key",
+            "market_key",
+            "outcome",
+            "coleta_em",
+        ]
     )
 )
 
-print("Prévia da camada Gold:")
+print("Prévia da Gold histórica:")
 
-gold_best_odds.orderBy(
+gold_historico.orderBy(
     "sport_key",
-    "commence_time",
     "game_id",
+    "coleta_em",
+    "bookmaker_name",
+    "outcome",
 ).show(30, truncate=False)
 
 (
-    gold_best_odds.write
+    gold_historico.write
     .mode("overwrite")
     .partitionBy("sport_key")
-    .parquet(str(GOLD_DIR))
+    .parquet(str(GOLD_HISTORICO_DIR))
 )
 
-print(f"Gold salva com sucesso em: {GOLD_DIR}")
+print(
+    "Gold histórica salva com sucesso em: "
+    f"{GOLD_HISTORICO_DIR}"
+)
 
 spark.stop()

@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, explode, input_file_name, regexp_extract
+from pyspark.sql.functions import col, explode, input_file_name, regexp_extract, to_timestamp
 
 
 CAMINHO_CONTAINER = Path("/opt/airflow/data")
@@ -57,6 +57,21 @@ df_silver = (
             1,
         ),
     )
+    .withColumn(
+    "coleta_str",
+    regexp_extract(
+        col("arquivo_origem"),
+        r"odds_(\d{14})\.json",
+        1,
+    ),
+)
+    .withColumn(
+        "coleta_em",
+        to_timestamp(
+            col("coleta_str"),
+            "yyyyMMddHHmmss",
+    ),
+)
     .withColumn("bookmaker", explode(col("bookmakers")))
     .withColumn("market", explode(col("bookmaker.markets")))
     .withColumn("outcome_data", explode(col("market.outcomes")))
@@ -73,6 +88,7 @@ df_silver = (
         col("outcome_data.name").alias("outcome"),
         col("outcome_data.price").cast("double").alias("odd"),
         col("arquivo_origem"),
+        col("coleta_em"),
     )
     .dropDuplicates(
         [
