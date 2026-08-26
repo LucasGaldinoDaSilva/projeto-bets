@@ -1,5 +1,7 @@
 FROM apache/airflow:2.9.3-python3.11
 
+ARG AIRFLOW_UID=50000
+
 USER root
 
 RUN apt-get update \
@@ -10,6 +12,14 @@ RUN apt-get update \
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
+RUN if [ "${AIRFLOW_UID}" != "50000" ]; then \
+        usermod -u "${AIRFLOW_UID}" airflow; \
+    fi \
+    && chown -R airflow:root /home/airflow
+
 USER airflow
 
-RUN pip install --no-cache-dir pyspark==3.5.1
+RUN pip install --no-cache-dir \
+    pyspark==3.5.6 \
+    python-dotenv \
+    requests

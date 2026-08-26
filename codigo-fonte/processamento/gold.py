@@ -1,7 +1,8 @@
 from pathlib import Path
 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col, row_number
+from pyspark.sql.window import Window
 
 
 CAMINHO_CONTAINER = Path("/opt/airflow/data")
@@ -15,6 +16,7 @@ DATA_DIR = (
 
 SILVER_DIR = DATA_DIR / "silver"
 GOLD_HISTORICO_DIR = DATA_DIR / "gold" / "historico_odds"
+GOLD_BEST_ODDS_DIR = DATA_DIR / "gold" / "melhores_odds"
 
 
 spark = (
@@ -88,6 +90,24 @@ gold_historico = (
     )
 )
 
+janela_melhor_odd = Window.partitionBy(
+    "sport_key",
+    "game_id",
+    "market_key",
+    "outcome",
+).orderBy(
+    col("odd").desc(),
+    col("bookmaker_name").asc_nulls_last(),
+)
+
+gold_melhores_odds = (
+    gold_historico
+    .withColumn("posicao", row_number().over(janela_melhor_odd))
+    .filter(col("posicao") == 1)
+    .drop("posicao")
+    .withColumnRenamed("odd", "best_odd")
+)
+
 print("Prévia da Gold histórica:")
 
 gold_historico.orderBy(
@@ -105,9 +125,20 @@ gold_historico.orderBy(
     .parquet(str(GOLD_HISTORICO_DIR))
 )
 
+(
+    gold_melhores_odds.write
+    .mode("overwrite")
+    .partitionBy("sport_key")
+    .parquet(str(GOLD_BEST_ODDS_DIR))
+)
+
 print(
     "Gold histórica salva com sucesso em: "
     f"{GOLD_HISTORICO_DIR}"
+)
+print(
+    "Gold de melhores odds salva com sucesso em: "
+    f"{GOLD_BEST_ODDS_DIR}"
 )
 
 spark.stop()

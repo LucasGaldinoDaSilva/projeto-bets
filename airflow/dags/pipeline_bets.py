@@ -1,11 +1,7 @@
 from datetime import datetime, timedelta
-from pathlib import Path
-
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 
-
-PROJECT_DIR = "/opt/airflow/../"
 
 default_args = {
     "owner": "lucas",
@@ -18,7 +14,7 @@ with DAG(
     description="Pipeline Bronze, Silver e Gold do projeto de odds",
     default_args=default_args,
     start_date=datetime(2026, 7, 1),
-    schedule_interval="0 * * * *",
+    schedule="0 * * * *",
     catchup=False,
     tags=["bets", "odds", "engenharia-dados"],
 ) as dag:
@@ -37,9 +33,5 @@ with DAG(
         task_id="gold_melhores_odds",
         bash_command="cd /opt/airflow && python codigo-fonte/processamento/gold.py",
     )
-
-    
-
-
     bronze >> silver >> gold
     
