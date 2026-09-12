@@ -33,5 +33,10 @@ with DAG(
         task_id="gold_melhores_odds",
         bash_command="cd /opt/airflow && python codigo-fonte/processamento/gold.py",
     )
-    bronze >> silver >> gold
+
+    postgres = BashOperator(
+        task_id="postgres_carregar_odds",
+        bash_command="cd /opt/airflow && python codigo-fonte/banco/carregar_postgres.py",
+    )
+    bronze >> silver >> gold >> postgres
     

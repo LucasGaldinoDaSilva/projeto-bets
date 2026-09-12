@@ -1,0 +1,74 @@
+import os
+
+import pandas as pd
+from dotenv import load_dotenv
+from sqlalchemy import create_engine
+
+
+
+# CONFIGURAÇÕES
+
+
+load_dotenv()
+
+CAMINHO_GOLD = "data/gold/melhores_odds"
+TABELA = "melhores_odds"
+
+usuario = os.getenv("POSTGRES_USER")
+senha = os.getenv("POSTGRES_PASSWORD")
+host = os.getenv("POSTGRES_HOST")
+porta = os.getenv("POSTGRES_PORT")
+banco = os.getenv("POSTGRES_DB")
+
+
+
+# CONEXÃO
+
+
+url = (
+    f"postgresql+psycopg2://{usuario}:{senha}"
+    f"@{host}:{porta}/{banco}"
+)
+
+engine = create_engine(url)
+
+
+
+# LEITURA DA GOLD
+
+
+print("Lendo dados da Gold...")
+
+df = pd.read_parquet(CAMINHO_GOLD)
+
+print(f"Total de registros: {len(df)}")
+print(f"Colunas: {df.columns.tolist()}")
+
+
+
+# AJUSTE DOS TIPOS
+
+
+df["commence_time"] = pd.to_datetime(
+    df["commence_time"],
+    errors="coerce",
+)
+
+df["coleta_em"] = pd.to_datetime(
+    df["coleta_em"],
+    errors="coerce",
+)
+
+
+# CARGA
+
+print("Carregando dados no PostgreSQL...")
+
+df.to_sql(
+    TABELA,
+    engine,
+    if_exists="append",
+    index=False,
+)
+
+print("Carga concluída com sucesso!")

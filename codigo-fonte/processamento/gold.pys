@@ -95,7 +95,6 @@ janela_melhor_odd = Window.partitionBy(
     "game_id",
     "market_key",
     "outcome",
-    "coleta_em",
 
 ).orderBy(
     col("odd").desc(),

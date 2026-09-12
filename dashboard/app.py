@@ -1,9 +1,12 @@
+
 import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-from utils.carregar_dados import carregar_dados_gold, carregar_dados_historico
-
+from utils.carregar_dados import (
+    carregar_dados_gold,
+    carregar_dados_historico,
+)
 
 
 st.set_page_config(
@@ -23,12 +26,16 @@ NOMES_CAMPEONATOS = {
 df_gold = carregar_dados_gold()
 df_historico = carregar_dados_historico()
 
+
 if df_gold.empty:
     st.warning("Nenhum dado encontrado na camada Gold.")
     st.stop()
 
 
-# Verifica se a nova coluna existe na camada Gold
+# =========================================================
+# VERIFICA COLUNAS NECESSÁRIAS
+# =========================================================
+
 if "bookmaker_name" not in df_gold.columns:
     st.error(
         "A coluna 'bookmaker_name' não foi encontrada. "
@@ -59,9 +66,11 @@ st.caption("Dashboard de melhores odds do futebol")
 
 st.sidebar.header("🎯 Filtros")
 
+
 campeonatos_disponiveis = sorted(
     df_gold["sport_key"].dropna().unique()
 )
+
 
 campeonato_selecionado = st.sidebar.selectbox(
     "Campeonato",
@@ -73,7 +82,9 @@ campeonato_selecionado = st.sidebar.selectbox(
     ),
 )
 
+
 df_filtrado = df_gold.copy()
+
 
 if campeonato_selecionado != "Todos":
     df_filtrado = df_filtrado[
@@ -87,10 +98,12 @@ times_disponiveis = sorted(
     | set(df_filtrado["away_team"].dropna())
 )
 
+
 time_selecionado = st.sidebar.selectbox(
     "Time",
     options=["Todos"] + times_disponiveis,
 )
+
 
 if time_selecionado != "Todos":
     df_filtrado = df_filtrado[
@@ -105,10 +118,12 @@ bookmakers_disponiveis = sorted(
     .unique()
 )
 
+
 bookmaker_selecionado = st.sidebar.selectbox(
     "Casa de aposta",
     options=["Todas"] + bookmakers_disponiveis,
 )
+
 
 if bookmaker_selecionado != "Todas":
     df_filtrado = df_filtrado[
@@ -125,6 +140,17 @@ if df_filtrado.empty:
 
 
 # =========================================================
+# PROBABILIDADE IMPLÍCITA
+# =========================================================
+
+df_filtrado = df_filtrado.copy()
+
+df_filtrado["probabilidade"] = (
+    1 / df_filtrado["best_odd"]
+) * 100
+
+
+# =========================================================
 # MÉTRICAS
 # =========================================================
 
@@ -135,7 +161,9 @@ todos_times = pd.concat(
     ]
 )
 
+
 coluna1, coluna2, coluna3, coluna4, coluna5 = st.columns(5)
+
 
 with coluna1:
     st.metric(
@@ -143,11 +171,13 @@ with coluna1:
         df_filtrado["game_id"].nunique(),
     )
 
+
 with coluna2:
     st.metric(
         "Times",
         todos_times.nunique(),
     )
+
 
 with coluna3:
     st.metric(
@@ -155,17 +185,20 @@ with coluna3:
         df_filtrado["bookmaker_name"].nunique(),
     )
 
+
 with coluna4:
     st.metric(
         "Resultados monitorados",
         len(df_filtrado),
     )
 
+
 with coluna5:
     st.metric(
         "Maior odd",
         f"{df_filtrado['best_odd'].max():.2f}",
     )
+
 
 with st.expander("🔍 Teste da Gold histórica"):
     st.write(
@@ -179,11 +212,13 @@ with st.expander("🔍 Teste da Gold histórica"):
             hide_index=True,
         )
 
+
 # =========================================================
 # TABELA
 # =========================================================
 
 st.subheader("💰 Melhores odds")
+
 
 tabela = df_filtrado[
     [
@@ -193,15 +228,18 @@ tabela = df_filtrado[
         "outcome",
         "bookmaker_name",
         "best_odd",
+        "probabilidade",
         "sport_key",
     ]
 ].copy()
+
 
 tabela["sport_key"] = (
     tabela["sport_key"]
     .map(NOMES_CAMPEONATOS)
     .fillna(tabela["sport_key"])
 )
+
 
 tabela = tabela.rename(
     columns={
@@ -211,18 +249,22 @@ tabela = tabela.rename(
         "outcome": "Resultado",
         "bookmaker_name": "Casa de aposta",
         "best_odd": "Melhor odd",
+        "probabilidade": "Probabilidade",
         "sport_key": "Campeonato",
     }
 )
+
 
 tabela = tabela.sort_values(
     by="Melhor odd",
     ascending=False,
 )
 
+
 tabela["Data"] = tabela["Data"].dt.strftime(
     "%d/%m/%Y %H:%M"
 )
+
 
 st.dataframe(
     tabela,
@@ -231,6 +273,9 @@ st.dataframe(
     column_config={
         "Melhor odd": st.column_config.NumberColumn(
             format="%.2f"
+        ),
+        "Probabilidade": st.column_config.NumberColumn(
+            format="%.2f%%"
         ),
     },
 )
@@ -241,6 +286,7 @@ st.dataframe(
 # =========================================================
 
 st.subheader("📊 Top 10 maiores odds")
+
 
 top_10 = (
     df_filtrado[
@@ -260,17 +306,20 @@ top_10 = (
     .copy()
 )
 
+
 top_10["Jogo"] = (
     top_10["home_team"]
     + " x "
     + top_10["away_team"]
 )
 
+
 top_10["Descrição"] = (
     top_10["Jogo"]
     + " — "
     + top_10["outcome"]
 )
+
 
 grafico = px.bar(
     top_10,
@@ -294,10 +343,12 @@ grafico = px.bar(
     title="Maiores odds disponíveis",
 )
 
+
 grafico.update_traces(
     texttemplate="%{text:.2f}",
     textposition="outside",
 )
+
 
 grafico.update_layout(
     yaxis={
@@ -306,6 +357,7 @@ grafico.update_layout(
     height=500,
     legend_title_text="Casa de aposta",
 )
+
 
 st.plotly_chart(
     grafico,
@@ -319,6 +371,7 @@ st.plotly_chart(
 
 st.subheader("🏆 Média das odds por campeonato")
 
+
 media_campeonato = (
     df_filtrado
     .groupby(
@@ -331,11 +384,13 @@ media_campeonato = (
     )
 )
 
+
 media_campeonato["Campeonato"] = (
     media_campeonato["sport_key"]
     .map(NOMES_CAMPEONATOS)
     .fillna(media_campeonato["sport_key"])
 )
+
 
 grafico_campeonato = px.bar(
     media_campeonato,
@@ -352,10 +407,12 @@ grafico_campeonato = px.bar(
     },
 )
 
+
 grafico_campeonato.update_layout(
     xaxis_title=None,
     yaxis_title="Média das odds",
 )
+
 
 st.plotly_chart(
     grafico_campeonato,
@@ -369,6 +426,7 @@ st.plotly_chart(
 
 st.subheader("⚽ Partidas em destaque")
 
+
 ids_proximos_jogos = (
     df_filtrado
     .dropna(subset=["commence_time"])
@@ -377,6 +435,7 @@ ids_proximos_jogos = (
     .drop_duplicates()
     .head(10)
 )
+
 
 partidas = (
     df_filtrado[
@@ -387,6 +446,7 @@ partidas = (
         ascending=True,
     )
 )
+
 
 partidas_agrupadas = partidas.groupby(
     [
@@ -399,7 +459,9 @@ partidas_agrupadas = partidas.groupby(
     as_index=False,
 )
 
+
 for _, grupo in partidas_agrupadas:
+
     jogo = grupo.iloc[0]
 
     campeonato = NOMES_CAMPEONATOS.get(
@@ -412,6 +474,7 @@ for _, grupo in partidas_agrupadas:
     )
 
     with st.container(border=True):
+
         st.markdown(
             f"### {jogo['home_team']} x {jogo['away_team']}"
         )
@@ -426,7 +489,9 @@ for _, grupo in partidas_agrupadas:
             colunas_odds,
             grupo.iterrows(),
         ):
+
             with coluna:
+
                 st.metric(
                     label=linha["outcome"],
                     value=f"{linha['best_odd']:.2f}",
@@ -435,8 +500,14 @@ for _, grupo in partidas_agrupadas:
                 st.caption(
                     f"🏦 {linha['bookmaker_name']}"
                 )
-    
+
+
+# =========================================================
+# RANKING DAS CASAS DE APOSTA
+# =========================================================
+
 st.subheader("🏦 Ranking das casas de aposta")
+
 
 ranking_bookmakers = (
     df_filtrado
@@ -464,6 +535,7 @@ ranking_bookmakers = (
     )
 )
 
+
 grafico_bookmakers = px.bar(
     ranking_bookmakers,
     x="quantidade_melhores_odds",
@@ -483,6 +555,7 @@ grafico_bookmakers = px.bar(
     title="Casas que mais ofereceram as melhores odds",
 )
 
+
 grafico_bookmakers.update_layout(
     yaxis={
         "categoryorder": "total ascending",
@@ -492,16 +565,24 @@ grafico_bookmakers.update_layout(
     height=500,
 )
 
+
 grafico_bookmakers.update_traces(
     textposition="outside",
 )
+
 
 st.plotly_chart(
     grafico_bookmakers,
     use_container_width=True,
 )
 
+
+# =========================================================
+# EVOLUÇÃO DAS ODDS
+# =========================================================
+
 st.subheader("📈 Evolução das odds")
+
 
 if not df_historico.empty:
 
@@ -511,12 +592,18 @@ if not df_historico.empty:
         + df_historico["away_team"]
     ).drop_duplicates().sort_values()
 
+
     jogo_escolhido = st.selectbox(
         "Selecione um jogo",
         jogos
     )
 
-    mandante, visitante = jogo_escolhido.split(" x ", 1)
+
+    mandante, visitante = jogo_escolhido.split(
+        " x ",
+        1
+    )
+
 
     historico = df_historico[
         (df_historico["home_team"] == mandante)
@@ -524,9 +611,11 @@ if not df_historico.empty:
         (df_historico["away_team"] == visitante)
     ].copy()
 
+
     historico["coleta_em"] = pd.to_datetime(
         historico["coleta_em"]
     )
+
 
     grafico = px.line(
         historico,
@@ -544,7 +633,9 @@ if not df_historico.empty:
         title="Histórico das odds"
     )
 
+
     st.plotly_chart(
         grafico,
         use_container_width=True,
     )
+
