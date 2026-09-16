@@ -45,6 +45,10 @@ O projeto foi desenvolvido com foco na aplicação prática de conceitos de **En
                     └─────────────────┘
 
                     ▲
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
                     │
              ┌───────────────┐
              │ Apache Airflow│
@@ -188,6 +192,13 @@ O dashboard utiliza:
 
 ---
 
+<<<<<<< HEAD
+## 🖥️ Demonstração
+
+![Dashboard do Projeto Bets](docs/images/dashboard.png)
+
+=======
+>>>>>>> origin/master
 ## 🛠️ Tecnologias utilizadas
 
 | Tecnologia     | Utilização                          |
@@ -209,6 +220,11 @@ O dashboard utiliza:
 
 ---
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> origin/master
 ## 📁 Estrutura do projeto
 
 ```text
@@ -426,6 +442,8 @@ Estudante de Análise e Desenvolvimento de Sistemas com foco em **Engenharia de 
 Este projeto foi desenvolvido com finalidade educacional e de portfólio, buscando aplicar na prática conceitos e ferramentas utilizadas em projetos de Engenharia de Dados.
 
 O projeto não tem como objetivo fornecer recomendações de apostas.
+<<<<<<< HEAD
+=======
 # ⚽ Projeto Bets — Pipeline de Engenharia de Dados
 
 Pipeline de Engenharia de Dados desenvolvido para coleta, processamento, armazenamento e disponibilização de dados de odds esportivas.
@@ -774,3 +792,4 @@ Python • SQL • PySpark • Apache Airflow • PostgreSQL • Docker • Data
 ## 📌 Observação
 
 Este projeto possui finalidade educacional e de portfólio, sendo utilizado para estudos e aplicação prática de conceitos de Engenharia de Dados.
+>>>>>>> origin/master
