@@ -195,7 +195,8 @@ O dashboard utiliza:
 <<<<<<< HEAD
 ## 🖥️ Demonstração
 
-![Dashboard do Projeto Bets](docs/images/dashboard.png)
+<img width="1853" height="1048" alt="dashboard" src="https://github.com/user-attachments/assets/66b1026e-d161-4e9d-b721-1c2bfb3fe78a" />
+
 
 =======
 >>>>>>> origin/master
