@@ -247,7 +247,7 @@ O arquivo `.env` não deve ser enviado para o GitHub.
 ### 1. Clonar o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone <[URL_DO_REPOSITORIO](https://github.com/LucasGaldinoDaSilva/projeto-bets)>
 cd projeto-bets
 ```
 
