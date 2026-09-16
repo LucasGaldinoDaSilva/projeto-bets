@@ -192,13 +192,6 @@ O dashboard utiliza:
 
 ---
 
-<<<<<<< HEAD
-## 🖥️ Demonstração
-
-![Dashboard do Projeto Bets](docs/images/dashboard.png)
-
-=======
->>>>>>> origin/master
 ## 🛠️ Tecnologias utilizadas
 
 | Tecnologia     | Utilização                          |
