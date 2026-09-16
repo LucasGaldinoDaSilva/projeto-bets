@@ -577,6 +577,7 @@ st.plotly_chart(
 )
 
 
+
 # =========================================================
 # EVOLUÇÃO DAS ODDS
 # =========================================================
@@ -586,56 +587,253 @@ st.subheader("📈 Evolução das odds")
 
 if not df_historico.empty:
 
-    jogos = (
+    # -----------------------------------------------------
+    # CRIA NOME DO JOGO
+    # -----------------------------------------------------
+
+    df_historico["jogo"] = (
         df_historico["home_team"]
         + " x "
         + df_historico["away_team"]
-    ).drop_duplicates().sort_values()
+    )
+
+    jogos = (
+        df_historico["jogo"]
+        .dropna()
+        .drop_duplicates()
+        .sort_values()
+    )
 
 
     jogo_escolhido = st.selectbox(
         "Selecione um jogo",
-        jogos
+        jogos,
     )
 
 
-    mandante, visitante = jogo_escolhido.split(
-        " x ",
-        1
-    )
+    # -----------------------------------------------------
+    # FILTRA O JOGO
+    # -----------------------------------------------------
 
-
-    historico = df_historico[
-        (df_historico["home_team"] == mandante)
-        &
-        (df_historico["away_team"] == visitante)
+    historico_jogo = df_historico[
+        df_historico["jogo"] == jogo_escolhido
     ].copy()
 
 
-    historico["coleta_em"] = pd.to_datetime(
-        historico["coleta_em"]
+    # -----------------------------------------------------
+    # RESULTADOS DISPONÍVEIS
+    # -----------------------------------------------------
+
+    resultados_disponiveis = sorted(
+        historico_jogo["outcome"]
+        .dropna()
+        .unique()
     )
 
 
-    grafico = px.line(
-        historico,
-        x="coleta_em",
-        y="odd",
-        color="outcome",
-        line_dash="bookmaker_name",
-        markers=True,
-        labels={
-            "coleta_em": "Data da coleta",
-            "odd": "Odd",
-            "outcome": "Resultado",
-            "bookmaker_name": "Casa de aposta",
-        },
-        title="Histórico das odds"
+    resultado_escolhido = st.selectbox(
+        "Selecione o resultado",
+        resultados_disponiveis,
     )
 
 
-    st.plotly_chart(
-        grafico,
-        use_container_width=True,
+    historico_jogo = historico_jogo[
+        historico_jogo["outcome"]
+        == resultado_escolhido
+    ].copy()
+
+
+    # -----------------------------------------------------
+    # CASAS DISPONÍVEIS
+    # -----------------------------------------------------
+
+    casas_disponiveis = sorted(
+        historico_jogo["bookmaker_name"]
+        .dropna()
+        .unique()
     )
 
+
+    casa_escolhida = st.selectbox(
+        "Selecione a casa de aposta",
+        ["Todas"] + casas_disponiveis,
+    )
+
+
+    # -----------------------------------------------------
+    # FILTRO DA CASA
+    # -----------------------------------------------------
+
+    historico_grafico = historico_jogo.copy()
+
+
+    if casa_escolhida != "Todas":
+
+        historico_grafico = historico_grafico[
+            historico_grafico["bookmaker_name"]
+            == casa_escolhida
+        ].copy()
+
+
+    # -----------------------------------------------------
+    # CONVERTE DATA
+    # -----------------------------------------------------
+
+    historico_grafico["coleta_em"] = pd.to_datetime(
+        historico_grafico["coleta_em"],
+        errors="coerce",
+        utc=True,
+    )
+
+
+    historico_grafico["coleta_em"] = (
+        historico_grafico["coleta_em"]
+        .dt.tz_convert("America/Sao_Paulo")
+    )
+
+
+    historico_grafico = historico_grafico.sort_values(
+        "coleta_em"
+    )
+
+
+    # -----------------------------------------------------
+    # GRÁFICO
+    # -----------------------------------------------------
+
+    if not historico_grafico.empty:
+
+        grafico_historico = px.line(
+            historico_grafico,
+            x="coleta_em",
+            y="odd",
+            color="bookmaker_name",
+            markers=True,
+            labels={
+                "coleta_em": "Data da coleta",
+                "odd": "Odd",
+                "bookmaker_name": "Casa de aposta",
+            },
+            title=(
+                f"{jogo_escolhido} — "
+                f"{resultado_escolhido}"
+            ),
+        )
+
+
+        grafico_historico.update_layout(
+            xaxis_title="Data da coleta",
+            yaxis_title="Odd",
+            hovermode="x unified",
+        )
+
+
+        st.plotly_chart(
+            grafico_historico,
+            use_container_width=True,
+        )
+
+
+    # -----------------------------------------------------
+    # VARIAÇÃO POR CASA
+    # -----------------------------------------------------
+
+    st.subheader("📊 Variação das odds por casa")
+
+
+    historico_variacao = historico_jogo.copy()
+
+
+    historico_variacao["coleta_em"] = pd.to_datetime(
+        historico_variacao["coleta_em"],
+        errors="coerce",
+        utc=True,
+    )
+
+
+    historico_variacao = (
+        historico_variacao
+        .sort_values("coleta_em")
+    )
+
+
+    resumo_variacao = []
+
+
+    for casa, grupo in historico_variacao.groupby(
+        "bookmaker_name"
+    ):
+
+        grupo = grupo.sort_values(
+            "coleta_em"
+        )
+
+
+        odd_inicial = grupo.iloc[0]["odd"]
+        odd_atual = grupo.iloc[-1]["odd"]
+
+
+        if odd_inicial:
+
+            variacao = (
+                (odd_atual - odd_inicial)
+                / odd_inicial
+            ) * 100
+
+        else:
+
+            variacao = 0
+
+
+        resumo_variacao.append(
+            {
+                "Casa de aposta": casa,
+                "Odd inicial": odd_inicial,
+                "Odd atual": odd_atual,
+                "Variação (%)": variacao,
+                "Coletas": len(grupo),
+            }
+        )
+
+
+    tabela_variacao = pd.DataFrame(
+        resumo_variacao
+    )
+
+
+    if not tabela_variacao.empty:
+
+        tabela_variacao = (
+            tabela_variacao
+            .sort_values(
+                "Variação (%)",
+                ascending=False,
+            )
+        )
+
+
+        st.dataframe(
+            tabela_variacao,
+            use_container_width=True,
+            hide_index=True,
+            column_config={
+                "Odd inicial": st.column_config.NumberColumn(
+                    format="%.2f"
+                ),
+                "Odd atual": st.column_config.NumberColumn(
+                    format="%.2f"
+                ),
+                "Variação (%)": st.column_config.NumberColumn(
+                    format="%.2f%%"
+                ),
+                "Coletas": st.column_config.NumberColumn(
+                    format="%d"
+                ),
+            },
+        )
+
+else:
+
+    st.info(
+        "Não há dados históricos disponíveis."
+    )
